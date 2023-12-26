@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/textViewAvatarUrl"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="Avatar URL: "
+        android:textStyle="italic" />
+    <!-- Login TextView -->
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/textViewLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textStyle="bold" />
+
+    <!-- ID TextView -->
+    <TextView
+        android:id="@+id/textViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID: "
+        android:textStyle="italic" />
+
+    <!-- Node ID TextView -->
+    <TextView
+        android:id="@+id/textViewNodeId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Node ID: "
+        android:textStyle="italic" />
+
+    <!-- Avatar URL TextView -->
+
+
+    <!-- URL TextView -->
+    <TextView
+        android:id="@+id/textViewUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URL: "
+        android:textStyle="italic" />
+
+    <!-- HTML URL TextView -->
+    <TextView
+        android:id="@+id/textViewHtmlUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HTML URL: "
+        android:textStyle="italic" />
+
+    <!-- Followers URL TextView -->
+    <TextView
+        android:id="@+id/textViewFollowersUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Followers URL: "
+        android:textStyle="italic" />
+
+    <!-- Following URL TextView -->
+    <TextView
+        android:id="@+id/textViewFollowingUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Following URL: "
+        android:textStyle="italic" />
+
+    <!-- Gists URL TextView -->
+    <TextView
+        android:id="@+id/textViewGistsUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gists URL: "
+        android:textStyle="italic" />
+
+    <!-- Starred URL TextView -->
+    <TextView
+        android:id="@+id/textViewStarredUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Starred URL: "
+        android:textStyle="italic" />
+
+    <!-- Subscriptions URL TextView -->
+    <TextView
+        android:id="@+id/textViewSubscriptionsUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subscriptions URL: "
+        android:textStyle="italic" />
+
+    <!-- Organizations URL TextView -->
+    <TextView
+        android:id="@+id/textViewOrganizationsUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Organizations URL: "
+        android:textStyle="italic" />
+
+    <!-- Repos URL TextView -->
+    <TextView
+        android:id="@+id/textViewReposUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repos URL: "
+        android:textStyle="italic" />
+
+    <!-- Events URL TextView -->
+    <TextView
+        android:id="@+id/textViewEventsUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Events URL: "
+        android:textStyle="italic" />
+
+    <!-- Received Events URL TextView -->
+    <TextView
+        android:id="@+id/textViewReceivedEventsUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Received Events URL: "
+        android:textStyle="italic" />
+
+    <!-- Type TextView -->
+    <TextView
+        android:id="@+id/textViewType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type: "
+        android:textStyle="italic" />
+
+    <!-- Site Admin TextView -->
+    <TextView
+        android:id="@+id/textViewSiteAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Site Admin: "
+        android:textStyle="italic" />
+
+</LinearLayout>
